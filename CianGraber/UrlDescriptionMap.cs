@@ -19,5 +19,7 @@ namespace CianGraber
     {
         public string Url { get; set; }
         public string Description { get; set; }
+
+        public List<District> Districts { get; set; }
     }
 }
